@@ -2,8 +2,8 @@
 class Person
   attr_reader :name
 
-  def initialize(name)
-    @name = name
+  def initialize
+    @name
   end
 
   def talk
@@ -15,5 +15,5 @@ class Person
   end
 end
 
-adele_goldberg = Person.new("Adele Goldberg")
-alan_kay = Person.new("Alan Key")
+adele_goldberg = Person.new
+alan_kay = Person.new
