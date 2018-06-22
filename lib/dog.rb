@@ -1,8 +1,8 @@
 # dog.rb
 class Dog
   attr_reader :name
-  def initialize(name)
-    @name = name
+  def initialize
+    @name
   end
 
   def bark
@@ -15,6 +15,6 @@ class Dog
 
 end
 
-fido = Dog.new("Fido")
-snoopy = Dog.new("Snoopy")
-lassie = Dog.new("Lassie")
+fido = Dog.new
+snoopy = Dog.new
+lassie = Dog.new
